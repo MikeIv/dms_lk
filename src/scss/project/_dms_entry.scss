@@ -1,0 +1,415 @@
+.dms_entry {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1;
+
+  width: 100%;
+
+  padding-left: 2rem;
+  padding-right: 2rem;
+  box-sizing: border-box;
+
+  font-family: $mainFont;
+
+  &--pb {
+    padding-bottom: 10rem;
+  }
+
+  @media screen and (min-width: 480px) {
+    width: 42rem;
+
+    margin: 0 auto;
+  }
+
+  @media screen and (min-width: 768px) {
+    height: 100%;
+  }
+}
+
+
+
+.dms_entry__entry-block {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+
+  width: 100%;
+  margin-bottom: auto;
+
+  @media screen and (min-width: 768px) {
+    margin: 0;
+  }
+}
+
+.dms_entry__logo {
+  margin-top: auto;
+  margin-bottom: auto;
+
+  @media screen and (min-width: 768px) {
+    display: none;
+  }
+}
+
+.dms_entry__h2 {
+  margin-top: 2rem;
+  margin-bottom: 3.6rem;
+  text-align: center;
+  font-size: $mainFs;
+  color: $base;
+}
+
+.dms_entry__info-block {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+
+  width: 100%;
+
+  margin-bottom: 2rem;
+}
+
+.dms_entry__info-txt {
+  text-align: center;
+  font-size: $xxs-Fs;
+  line-height: $mainFs;
+  color: $darkgray;
+
+  &--size {
+    font-size: $s-Fs;
+    font-weight: 500;
+    color: $base;
+  }
+}
+
+.dms_entry__timer-line {
+  width: 100%;
+
+  margin-top: 2rem;
+  margin-bottom: 5rem;
+
+  text-align: center;
+  font-size: $mainFs;
+  font-weight: 300;
+  line-height: $mainFs;
+  color: $darkgray;
+}
+
+.dms_entry__form {
+  display: flex;
+  flex-wrap: wrap;
+
+  width: 100%;
+}
+
+.dms_entry__input-block {
+  position: relative;
+  display: flex;
+  align-items: center;
+
+  width: 100%;
+
+  margin: 0;
+  padding: 0;
+
+  &:focus-within:before {
+    position: absolute;
+    content: 'Номер телефона или email';
+    top: -0.6rem;
+    left: 1rem;
+
+    width: 18rem;
+    height: 2rem;
+
+    text-align: center;
+    font-size: $xxs-Fs;
+    color: $darkgray;
+
+    background-color: $white;
+
+    z-index: 1;
+  }
+}
+
+.dms_entry__input-error {
+  position: absolute;
+  bottom: 0.7rem;
+  left: 1rem;
+
+  width: 20rem;
+
+  color: $red;
+
+  z-index: 1;
+}
+
+
+
+.dms_entry__input-wrapper {
+  position: relative;
+  display: flex;
+  align-items: center;
+
+  width: 100%;
+
+  margin: 0;
+  margin-top: 0.8rem;
+  margin-bottom: 0.8rem;
+  padding: 0;
+
+  &:before {
+    position: absolute;
+    content: 'Номер телефона';
+    top: -0.6rem;
+    left: 1rem;
+
+    width: 11rem;
+    height: 2rem;
+
+    text-align: center;
+    font-size: $xxs-Fs;
+    color: $darkgray;
+
+    background-color: $white;
+
+    z-index: 1;
+  }
+
+  &--code:before {
+    content: 'Код';
+
+    width: 4rem;
+  }
+}
+
+.dms_entry__input {
+  position: relative;
+  width: 100%;
+  height: 5rem;
+
+  padding-left: 2rem;
+  padding-right: 2rem;
+  box-sizing: border-box;
+
+  font-family: $mainFont;
+  font-size: $mainFs;
+  color: $darkgray;
+
+  border: 1px solid $gray;
+  border-radius: 0.3rem;
+
+  &--mb {
+    margin-bottom: 2rem;
+  }
+
+  &::placeholder {
+    font-size: $mainFs;
+    font-weight: 300;
+    color: $gray;
+  }
+
+  &:focus {
+    border-color: $blue;
+
+  }
+
+  &:focus-visible {
+    border-color: $blue;
+  }
+
+  &:active {
+    border-color: $blue;
+  }
+
+}
+
+
+
+.dms_entry__input-pass {
+  position: relative;
+  width: 100%;
+
+  &:focus-within:before {
+    position: absolute;
+    content: 'Пароль';
+    top: -0.6rem;
+    left: 1rem;
+
+    width: 6rem;
+    height: 2rem;
+
+    text-align: center;
+    font-size: $xxs-Fs;
+    color: $darkgray;
+
+    background-color: $white;
+
+    z-index: 1;
+  }
+}
+
+.dms_entry__input-icon {
+  position: absolute;
+  top: 0.5rem;
+  right: 1rem;
+
+  width: 4rem;
+  height: 4rem;
+
+  background-image: url("/img/icon-close-eye.svg");
+  background-size: cover;
+
+  cursor: pointer;
+}
+
+.dms_entry__input-icon.active {
+  background-image: url("/img/icon-eye.svg");
+}
+
+.dms_entry__pass-link {
+  display: flex;
+  justify-content: center;
+
+  margin: 0 auto;
+  margin-top: 2.2rem;
+  margin-bottom: 2.5rem;
+
+  text-align: center;
+  font-size: $mainFs;
+  color: $base;
+
+  text-decoration: none;
+
+  &:hover {
+    color: $midgray;
+  }
+}
+
+.dms_entry__form-btn {
+  width: 100%;
+  height: 5rem;
+
+  font-size: $m-Fs;
+  font-weight: 300;
+  color: $white;
+
+  text-transform: uppercase;
+
+  background-color: $base;
+  user-select: none;
+
+  &:hover {
+    background-color: $baseHover;
+  }
+
+  &--mt {
+    margin-top: 2rem;
+  }
+
+  &--link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    text-decoration: none;
+  }
+
+}
+
+
+// Check block
+.dms_entry__check-block {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+
+  width: 100%;
+
+  margin-top: 1rem;
+  margin-bottom: 4rem;
+}
+
+.dms_entry__check-line {
+  display: flex;
+  align-items: center;
+
+  width: 100%;
+
+  margin-bottom: 0.8rem;
+}
+
+.dms_entry__check {
+  width: 2rem;
+  height: 2rem;
+
+  margin-right: 1.4rem;
+  border-color: $gray;
+}
+
+.dms_entry__check-info {
+  display: flex;
+  align-items: center;
+
+  font-size: $xxs-Fs;
+}
+
+.dms_entry__check-txt {
+  margin-right: 0.5rem;
+  color: $darkgray;
+}
+
+.dms_entry__check-link {
+  color: $base;
+}
+
+
+
+
+// Socials block
+.dms_entry__socials {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+
+  width: 100%;
+
+  margin-bottom: 5rem;
+  padding: 0;
+}
+
+.dms_entry__socials-h2 {
+  margin-top: 4rem;
+  margin-bottom: 1rem;
+
+  font-size: $mainFs;
+  color: $darkgray;
+
+  user-select: none;
+}
+
+.dms_entry__socials-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  list-style: none;
+}
+
+.dms_entry__socials-item {
+  cursor: pointer;
+}
+
+.dms_entry__icon {
+  width: 4rem;
+  height: 4rem;
+
+  fill: $darkgray;
+
+  &:hover {
+    fill: $base;
+  }
+}
