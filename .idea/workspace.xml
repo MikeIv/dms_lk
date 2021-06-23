@@ -1,7 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6ec7f55f-58b9-49ba-a430-0cda11ef1f19" name="Default Changelist" comment="" />
+    <list default="true" id="6ec7f55f-58b9-49ba-a430-0cda11ef1f19" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/components/bem-blocks/_dms_menu-sidebar.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/bem-blocks/_test.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/page-blocks/_sidebar.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scss/project/_dms_lk.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scss/project/_dms_menu-sidebar.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scss/project/_dms_sidebar.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/css/style.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/build/css/style.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/sourcemaps/style.min.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/build/sourcemaps/style.min.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/page-blocks/_header.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/page-blocks/_header.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/global/_common.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/global/_common.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/global/_global.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/global/_global.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/parts/_header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/parts/_header.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/parts/_main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/parts/_main.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/parts/_page.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/parts/_page.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/project/_dms_entry.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/style.scss" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,18 +34,29 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1uIndskvTo92njROnadg312pzA4" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/components" />
+      <recent name="$PROJECT_DIR$/src/components/page-blocks" />
+    </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -35,11 +66,17 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1624362061224</updated>
-      <workItem from="1624362062667" duration="746000" />
+      <workItem from="1624362062667" duration="23784000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="900" y="490" key="EditFileWatcherDialog" timestamp="1624433110745">
+      <screen x="0" y="23" width="2560" height="1366" />
+    </state>
+    <state x="900" y="490" key="EditFileWatcherDialog/0.23.2560.1366@0.23.2560.1366" timestamp="1624433110745" />
   </component>
 </project>

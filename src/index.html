@@ -7,7 +7,7 @@
 "favicon":"img/favicons/favicon",
 })
 
-<body class="page__body">
+<body class="page_lk__body">
 <!-- inline svg sprite -->
 <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="752" height="40"
      viewBox="0 0 752 40" style="display: none;">
@@ -42,65 +42,21 @@
 </svg>
 <!-- ================= -->
 @@include('components/page-blocks/_header.html')
-<main class="main">
-  <section id="modal" class="dms_entry">
-    <h1 class="dms_entry__h1 v-hidden">Страница входа в систему</h1>
-    <a href="#" class="dms_entry__logo">
-      <img src="/img/logo-DMS.svg" alt="логотип системы" class="dms_entry__logo-img">
-    </a>
 
-    <div class="dms_entry__entry-block">
-      <form action="" class="dms_entry__form" @submit.prevent="submitForm">
-        <div class="dms_entry__input-block">
-          <input type="text" class="dms_entry__input dms_entry__input--mb"
-                                             placeholder="Телефон или email"
-                  v-model="formInfo.email"
+@@include('components/page-blocks/_sidebar.html')
 
-                 required oninput="validateComments(this)">
-<!--          <p class="dms_entry__input-error" v-if="">Ошибка</p>-->
-        </div>
-        <div class="dms_entry__input-pass">
-          <input :type="show ? 'text' : 'password'" class="dms_entry__input"  placeholder="Пароль"
-                 required>
-          <span class="dms_entry__input-icon" :class="{ active: show }" @click="show = !show"></span>
-        </div>
-        <a href="/recovery" class="dms_entry__pass-link">Напомнить пароль?</a>
-        <button class="dms_entry__form-btn btn" type="submit">Войти</button>
-      </form>
+<main class="main_lk">
+  <section id="lk" class="dms_lk">
+    <h1 class="dms_lk__h1 v-hidden">Главная страница</h1>
 
-      <section class="dms_entry__socials">
-        <h2 class="dms_entry__socials-h2">Через соцсеть</h2>
-        <ul class="dms_entry__socials-list">
-          <li class="dms_entry__socials-item">
-            <svg class="dms_entry__icon" role="button">
-              <use xlink:href="#icon-google"></use>
-            </svg>
-          </li>
-          <li class="dms_entry__socials-item">
-            <svg class="dms_entry__icon" role="button">
-              <use xlink:href="#icon-yandex"></use>
-            </svg>
-          </li>
-          <li class="dms_entry__socials-item">
-            <svg class="dms_entry__icon" role="button">
-              <use xlink:href="#icon-fb"></use>
-            </svg>
-          </li>
-          <li class="dms_entry__socials-item">
-            <svg class="dms_entry__icon" role="button">
-              <use xlink:href="#icon-vk"></use>
-            </svg>
-          </li>
-        </ul>
-      </section>
-    </div>
+    <button class="dms_lk__add-item btn">Создать дашборд</button>
 
 
 
   </section>
 
 </main>
-@@include('components/page-blocks/_footer.html')
+
 
 
 
@@ -108,57 +64,21 @@
 
 <script>
 
-  Vue.prototype.$appName = 'Моё приложение';
-
-  function validateComments(input) {
-    if (input.value.length < 6) {
-      input.setCustomValidity("Поле должно содержать более 6 символов");
-    }
-    else {
-      // Длина комментария отвечает требованию,
-      // поэтому очищаем сообщение об ошибке
-      input.setCustomValidity("");
-    }
-  }
-
-
-
 
   new Vue({
 
-    beforeCreate: function () {
-      console.log(this.$appName);
-    },
 
-    el: '#modal',
+    el: '#lk',
     data: {
       title: '',
-      type: 'password',
       show: false,
       styleref: '',
-      formInfo: {
-        email: '',
-        pass: ''
-      },
     },
     methods: {
-      submitForm () {
-          console.log({
-            email:  this.formInfo.email,
-            pass: this.formInfo.pass,
-          })
-          this.formInfo.email = '',
-          this.formInfo.pass = ''
-      },
 
-      styleRef(min, max) {
-        return this.styleref = Math.floor(Math.random() * (max - min + 1)) + min;
-        console.log(this.styleref)
-      },
     },
 
   })
-
 
 
 </script>
