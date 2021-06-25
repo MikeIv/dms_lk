@@ -2,25 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6ec7f55f-58b9-49ba-a430-0cda11ef1f19" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/bem-blocks/_dms_menu-sidebar.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/bem-blocks/_test.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/page-blocks/_sidebar.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/scss/project/_dms_lk.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/scss/project/_dms_menu-sidebar.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/scss/project/_dms_sidebar.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/css/style.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/build/css/style.min.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/sourcemaps/style.min.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/build/sourcemaps/style.min.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/page-blocks/_head.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/page-blocks/_head.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/page-blocks/_header.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/page-blocks/_header.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/global/_common.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/global/_common.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/global/_global.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/global/_global.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/page-blocks/_sidebar.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/page-blocks/_sidebar.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/scss/parts/_header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/parts/_header.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/parts/_main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/parts/_main.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/parts/_page.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/parts/_page.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/project/_dms_entry.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/style.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/project/_dms_lk.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/project/_dms_lk.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/project/_dms_menu-sidebar.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/project/_dms_menu-sidebar.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/project/_dms_sidebar.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/project/_dms_sidebar.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,13 +38,21 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.mappings" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.symlinks" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/assets/fonts" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/assets/fonts" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/components" />
       <recent name="$PROJECT_DIR$/src/components/page-blocks" />
@@ -66,7 +66,9 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1624362061224</updated>
-      <workItem from="1624362062667" duration="23784000" />
+      <workItem from="1624362062667" duration="32107000" />
+      <workItem from="1624546024542" duration="528000" />
+      <workItem from="1624601472603" duration="9409000" />
     </task>
     <servers />
   </component>

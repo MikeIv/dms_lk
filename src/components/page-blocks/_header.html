@@ -20,6 +20,26 @@
     <svg id="icon-sb-invoice" viewBox="0 0 40 40">
       <path d="m13 13h2v6h-2v-6zm5 0h-2v6h2v-6zm-5 14h2v-6h-2v6zm5-6h-2v6h2v-2h5v-2h-5v-2zm-8 8h2v-18h-2v18zm18-18v4h-7v-2h-2v6h2v-2h7v6h-2v-2h-2v6h2v-2h2v4h2v-18h-2z" fill="#757575"/>
     </svg>
+    <svg id="icon-busines-pr" viewBox="0 0 40 40">
+      <path d="m15 13v14l11-7-11-7z" fill="#939393"/>
+    </svg>
+    <svg id="icon-notification" viewBox="0 0 40 40">
+      <path d="m29.75 26.19v0.9524h-18.75v-0.9524l2.0833-1.9048v-5.7143c0-2.9524 2.1146-5.5524 5.2084-6.3904v-0.2762c0-0.5052 0.2195-0.9897 0.6102-1.3469s0.9206-0.5579 1.4731-0.5579 1.0824 0.2007 1.4731 0.5579 0.6102 0.8417 0.6102 1.3469v0.2762c3.0938 0.838 5.2084 3.438 5.2084 6.3904v5.7143l2.0833 1.9048zm-7.2917 1.9047c0 0.5052-0.2195 0.9897-0.6102 1.3469s-0.9206 0.5579-1.4731 0.5579-1.0824-0.2007-1.4731-0.5579-0.6102-0.8417-0.6102-1.3469" fill="#939393"/>
+    </svg>
+    <svg id="icon-phone-app" viewBox="0 0 40 40">
+      <path d="m25.111 26.364h-10.926v-12.727h10.926v12.727zm0-16.364h-10.926c-1.2127 0-2.1851 0.8091-2.1851 1.8182v16.364c0 0.4822 0.2302 0.9447 0.64 1.2857 0.4098 0.3409 0.9656 0.5325 1.5451 0.5325h10.926c0.5796 0 1.1354-0.1916 1.5452-0.5325 0.4098-0.341 0.64-0.8035 0.64-1.2857v-16.364c0-1.0091-0.9833-1.8182-2.1852-1.8182z" fill="#939393"/>
+    </svg>
+    <svg id="icon-app" viewBox="0 0 40 40">
+      <path d="M11 11H15.4444V15.4444H11V11Z" fill="#757575"/>
+      <path d="M17.6666 11H22.1111V15.4444H17.6666V11Z" fill="#757575"/>
+      <path d="M24.3334 11H28.7778V15.4444H24.3334V11Z" fill="#757575"/>
+      <path d="M11 17.6667H15.4444V22.1111H11V17.6667Z" fill="#757575"/>
+      <path d="m17.667 17.667h4.4445v4.4444h-4.4445v-4.4444z" fill="#757575"/>
+      <path d="m24.333 17.667h4.4444v4.4444h-4.4444v-4.4444z" fill="#757575"/>
+      <path d="M11 24.3333H15.4444V28.7778H11V24.3333Z" fill="#757575"/>
+      <path d="m17.667 24.333h4.4445v4.4445h-4.4445v-4.4445z" fill="#757575"/>
+      <path d="m24.333 24.333h4.4444v4.4445h-4.4444v-4.4445z" fill="#757575"/>
+    </svg>
   </symbol>
 </svg>
 <!-- ================= -->
@@ -50,18 +70,67 @@
 <!--  ================  -->
 
 
-    <div class="dms_lk__col-left">
+    <div class="header_lk__col-left">
       <img src="img/logo-DMS.svg" alt="логотип компании" class="dms_menu-sidebar__header-logo">
     </div>
 
-    <div class="header_lk__head">
+    <div class="header_lk__head header_lk__head--mob">
       <p class="header_lk__title">Главная</p>
     </div>
 
-
-    <button class="header_lk__profile-btn btn">
+    <button class="header_lk__profile-btn btn header_lk__profile-btn--mob">
       <img class="header_lk__profile-img" src="img/icon-avatar.svg" alt="avatar">
     </button>
+
+    <nav class="header_lk__nav">
+      <h3 class="header_lk__place">Личный кабинет</h3>
+      <span class="header_lk__name">Семёнов Юрий Анатольевич</span>
+
+      <ul class="header_lk__btn-block">
+        <li class="header_lk__btn-item">
+          <svg class="header_lk__icon" role="button">
+            <use xlink:href="#icon-busines-pr"></use>
+          </svg>
+
+          <div class="header_lk__item-sub">
+            <ul class="header_lk__sub-list">
+              <li class="header_lk__sub-item">
+                <a href="#" class="header_lk__sub-link">Напоминание</a>
+              </li>
+              <li class="header_lk__sub-item">
+                <a href="#" class="header_lk__sub-link">Аренда переговорки</a>
+              </li>
+            </ul>
+
+            <a href="#" class="header_lk__sub-link header_lk__sub-link--btn header_lk__sub-link--bordtop">Перейти в
+              каталог</a>
+
+          </div>
+        </li>
+        <li class="header_lk__btn-item">
+          <svg class="header_lk__icon" role="button">
+            <use xlink:href="#icon-notification"></use>
+          </svg>
+
+          <div class="header_lk__item-sub"></div>
+        </li>
+        <li class="header_lk__btn-item">
+          <svg class="header_lk__icon" role="button">
+            <use xlink:href="#icon-phone-app"></use>
+          </svg>
+
+          <div class="header_lk__item-sub"></div>
+        </li>
+        <li class="header_lk__btn-item">
+          <svg class="header_lk__icon" role="button">
+            <use xlink:href="#icon-app"></use>
+          </svg>
+
+          <div class="header_lk__item-sub"></div>
+        </li>
+      </ul>
+
+    </nav>
 
   </div>
 
