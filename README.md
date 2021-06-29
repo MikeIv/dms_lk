@@ -5,17 +5,15 @@
 
 ![CodeFactor Grade](https://img.shields.io/codefactor/grade/github/budfy/easy-webdev-startpack?style=plastic) ![GitHub release (latest by date)](https://img.shields.io/github/v/release/budfy/Easy-webdev-startpack?style=plastic) ![GitHub last commit](https://img.shields.io/github/last-commit/budfy/easy-webdev-startpack?style=plastic) 
 
-## Проект DMS. Входная группа
+## Проект DMS. Личный кабинет
 
 
 
 ## Содержание:
 
-- главный экран входа;
-- регистрация;
-- восстановление пароля;
-- проверочный код;
-- чат;
+- Личный кабинет;
+- дашборд;
+
 
 
 ©
